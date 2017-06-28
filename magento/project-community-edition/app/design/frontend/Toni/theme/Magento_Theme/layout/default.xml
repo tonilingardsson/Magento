@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="form.subscribe" remove="true"></referenceBlock>
+
+    </body>
+    <body> <!--añadir código aquí para que aparezca el "About us" en el head"-->
+        <referenceContainer name="header.panel">
+                <block class="Magento\Framework\View\Element\Html\Link\Current" name="About us">
+                    <arguments>
+                        <argument name="label" xsi:type="string" translate="true">About us</argument>
+                        <argument name="path" xsi:type="string">About_us</argument>
+                    </arguments>
+                </block>
+        </referenceContainer>
+    </body>
+</page>

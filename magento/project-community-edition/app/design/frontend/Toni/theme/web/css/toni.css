@@ -1,0 +1,19 @@
+head {
+
+
+
+}
+body {
+    background-color:#f4f4f4;
+}
+header {
+    background-image: url("../images/header-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+ }
+.minicart-items-wrapper {
+    color:black;
+}
